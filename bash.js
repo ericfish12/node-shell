@@ -1,15 +1,23 @@
-// process.stdout.write('prompt > ');
 
-// process.stdin.on('data', (data) => {
-//   const cmd = data.toString().trim();
-//   if (cmd === "pwd") {
-//   console.log(process.cwd());
-//   }
-//   process.stdout.write('You typed:'+cmd);
-//   process.stdout.write('\nprompt >');
 
-// });
 
-const moduleEx = require('./pwd')
+
+
+
+
+
+
+
+const moduleEx = require('./asn.js')
 
 moduleEx();
+
+
+
+
+const done =(output)=>{
+
+console.log(output);
+
+}
+module.exports = done;
